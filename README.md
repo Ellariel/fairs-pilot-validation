@@ -21,11 +21,11 @@ Danila Valko and Jan Sören Schwarz and Jorge Marx Gómez and Ralf Isenmann (202
 title={FAIR+S: A validation study of a framework for sustainable research data and software}, 
 author={Danila Valko and {Jan S\"oren} Schwarz and Jorge Marx G\'omez} and Ralf Isenmann},
 year={2026},
-publisher={},
-howpublished={},
-doi={},
-eprint={},
-archivePrefix={},
-primaryClass={},
+publisher={arXiv},
+howpublished={arXiv},
+doi={10.48550/arXiv.2606.30663},
+eprint={2606.30663},
+archivePrefix={arXiv},
+primaryClass={cs.CY},
 }
 ```
