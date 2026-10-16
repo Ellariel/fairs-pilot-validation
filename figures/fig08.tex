@@ -1,0 +1,16 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{graphicx}
+\usepackage{array}
+\renewcommand{\familydefault}{\sfdefault}
+% \panel{minwidth}{file}{scale}{label}{caption}: image with sub-caption underneath,
+% caption wraps at the image width (but at least minwidth)
+\newsavebox{\pbox}
+\newcommand{\panel}[5]{\sbox{\pbox}{\includegraphics[scale=#3]{#2}}%
+  \ifdim\wd\pbox<#1 \def\pw{#1}\else\edef\pw{\the\wd\pbox}\fi
+  \begin{minipage}[t]{\pw}\centering\usebox{\pbox}\par\vspace{3pt}\small\textbf{(#4)} #5\end{minipage}}
+\begin{document}
+\begin{tabular}{@{}c@{}}
+  \panel{6cm}{fig08a_bar.pdf}{0.65}{a}{Different aspects of feasibility.} \\[8mm]
+  \panel{6cm}{fig08b_bar.pdf}{0.75}{b}{Which hardware/software details do you currently report (if any, multiple choice)?}
+\end{tabular}
+\end{document}

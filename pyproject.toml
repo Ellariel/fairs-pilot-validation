@@ -1,0 +1,18 @@
+[project]
+name = "fairs-pilot-validation"
+version = "0.1.0"
+<<<<<<< HEAD
+description = "Scripts and Data for the paper “FAIR+S: An expert-based validation study of a framework for sustainable research data and software”"
+=======
+description = "Scripts and Data for the Paper “FAIR+S: A validation study of a framework for sustainable research data and software”"
+>>>>>>> d227b2f67bf925f5ff2d771437c9c14b4c4dc58e
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy<2",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "ipykernel"
+]

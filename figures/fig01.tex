@@ -1,0 +1,18 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{graphicx}
+\usepackage{array}
+\renewcommand{\familydefault}{\sfdefault}
+% All four pies are exported with an identical canvas and identical, centred pie (margins trimmed here)
+% (draw_pie(..., fixed_layout=True)), so every panel uses the same scale and width.
+% \panel{file}{label}{caption}: image with sub-caption underneath, caption wraps at image width
+\newcommand{\pw}{7cm}% panel width
+\newcommand{\panel}[3]{\begin{minipage}[t]{\pw}\centering
+  \includegraphics[width=\pw,trim=15pt 30pt 15pt 30pt,clip]{#1}\par\vspace{-2pt}\small\textbf{(#2)} #3\end{minipage}}
+\begin{document}
+\begin{tabular}{@{}c@{}}
+  \panel{fig01a.pdf}{a}{Years of experience in research.}\hspace{0.3cm}%
+  \panel{fig01b.pdf}{b}{The level of education.} \\[0.4cm]
+  \panel{fig01c.pdf}{c}{Experience in data collection or preparation.}\hspace{0.3cm}%
+  \panel{fig01d.pdf}{d}{Experience in developing software.}
+\end{tabular}
+\end{document}

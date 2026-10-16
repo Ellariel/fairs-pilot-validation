@@ -1,0 +1,20 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{graphicx}
+\usepackage{array}
+\renewcommand{\familydefault}{\sfdefault}
+% \panel{width}{file}{scale}{label}{caption}: image with sub-caption underneath
+\newcommand{\panel}[5]{\begin{minipage}[t]{#1}\centering\includegraphics[scale=#3]{#2}\par\vspace{3pt}\small\textbf{(#4)} #5\end{minipage}}
+\begin{document}
+\begin{minipage}{17cm}
+  \hfil\includegraphics[scale=0.7]{fig05a_bar.pdf}\hfil\par\vspace{4pt}
+  \hfil\small\begin{tabular}{p{8cm}cc}
+    \hline
+    {} & Other participants & Selected experts \\
+    \hline
+    How familiar are you with the FAIR principles? & 3.77 & 3.96 \\
+    How important is it to follow FAIR principles? & 3.82 & 4.40 \\
+    To what extent do you apply the FAIR principles? & 3.42 & 3.81 \\
+    \hline
+  \end{tabular}\hfil
+\end{minipage}
+\end{document}
