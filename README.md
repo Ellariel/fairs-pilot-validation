@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Scripts and Data for the paper “FAIR+S: An expert-based validation study of a framework for sustainable research data and software”
-=======
-# Scripts and Data for the Paper “FAIR+S: A validation study of a framework for sustainable research data and software”
->>>>>>> d227b2f67bf925f5ff2d771437c9c14b4c4dc58e
 
 ## Quick Start
 
@@ -14,7 +10,6 @@ analysis.ipynb
 
 from the root directory.
 
-<<<<<<< HEAD
 
 ## A carbon.md example
 
@@ -25,21 +20,11 @@ As a first worked example, we applied FAIR+S to the survey dataset published wit
 
 ```latex
 Danila Valko and Jan Sören Schwarz and Jorge Marx Gómez and Ralf Isenmann (2026). FAIR+S: An expert-based validation study of a framework for sustainable research data and software.
-=======
-### Citation
-
-```latex
-Danila Valko and Jan Sören Schwarz and Jorge Marx Gómez and Ralf Isenmann (2026). FAIR+S: A validation study of a framework for sustainable research data and software.
->>>>>>> d227b2f67bf925f5ff2d771437c9c14b4c4dc58e
 ```
 
 ```latex
 @misc{ValkoSchwarzetal2026,
-<<<<<<< HEAD
 title={FAIR+S: An expert-based validation study of a framework for sustainable research data and software}, 
-=======
-title={FAIR+S: A validation study of a framework for sustainable research data and software}, 
->>>>>>> d227b2f67bf925f5ff2d771437c9c14b4c4dc58e
 author={Danila Valko and {Jan S\"oren} Schwarz and Jorge {Marx G\'omez} and Ralf Isenmann},
 year={2026},
 publisher={arXiv},
